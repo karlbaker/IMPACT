@@ -1,0 +1,9 @@
+[Unit]
+Description = IMPACT Register Service registers the device to the IMPACT tool.
+After = network.target
+
+[Service]
+ExecStart = /opt/impact/registration.sh
+
+[Install]
+WantedBy = multi-user.target

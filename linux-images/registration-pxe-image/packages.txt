@@ -1,0 +1,3 @@
+Rocky 8.7 Minimal Install
+Packages:
+- dnf install pciutils - Needed for the lspci/lshw commands
