@@ -1,4 +1,4 @@
-# `IMPACT`
+<img src="https://github.com/karlbaker/IMPACT/blob/main/photo/logo.svg" height="100"/>
 
 Status: WIP - Development Stage
 
