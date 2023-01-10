@@ -96,9 +96,9 @@ func addDevices(context *gin.Context) {
 func main() {
 	router := gin.Default()
 
-	router.GET("/api/registered/devices",getDevices)
-	router.GET("/api/registered/devices/:id",getDevice)
-	router.PATCH("/api/registered/devices/:id",patchDevice)
-	router.POST("/api/registered/devices", addDevices)
+	router.GET("/api/provision/",getDevices)
+	router.GET("/api/provision/:id",getDevice)
+	router.PATCH("/api/provision/:id",patchDevice)
+	router.POST("/api/provision/", addDevices)
 	router.Run("localhost:8080")
 }
