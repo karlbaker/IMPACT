@@ -1,18 +1,16 @@
-# IMPACT
+# `IMPACT`
 
-### _(Inventory, Manage, Provision, Automate, Configure, and Test)_
+Status: WIP - Development Stage
 
-IMPACT is a web-based bare-metal configuration management (CM) tool that allows you to _I_nventory, _M_anage, _P_rovision, _A_utomate, _C_onfigure, and _T_est hardware in your environment.
+IMPACT is a web-based bare-metal configuration management (CM) tool that allows you to **I**nventory, **M**anage, **P**rovision, **A**utomate, **C**onfigure, and **T**est enterprise level hardware in your environment.
 
 ---
 ## Features
-
-
-- Gather hardware inventory
+#### Hardware
+- Hardware reporting
 - Perform hardware diagnostics
-- Perform firmware updates 
-- Deploy and Configure Linux and Windows based operating systems
-- Cascade system deployments to fully deploy 
+- Perform firmware updates
+- Deploy Linux and Windows based operating systems
 - Import and excute other CM tool deployment scripts such as Ansible Playbooks
 ---
 ## Requirements
@@ -21,11 +19,6 @@ IMPACT provides two installation types that greatly differ based on your environ
 
 - The dedicated server installation is focused on large isolated envirnoments found at contract manufactures and hardware integrators were additional hardware resources would be needed and additional reporting and tie in features for ERP systems.
 
-#### Workstation Installation Requirement
-- OS: Linux
-#### Dedicated Server Installation Requirement
-- OS: Linux
-- Storage:
-- - 
+The specifc requirements are still in the works as the software is developed.
 
 ---
