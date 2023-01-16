@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@trendmicro/react-sidenav": "^0.5.0",
+    "bootstrap": "^5.2.3",
+    "react-bootstrap": "^2.7.0",
+    "react-icons": "^4.7.1",
+    "react-router-dom": "^6.6.2",
+    "react-sidenav": "^4.0.6"
+  }
+}
